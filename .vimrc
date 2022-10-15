@@ -8,5 +8,4 @@ set smartcase
 set autoindent
 set scrolloff=1
 set sidescrolloff=5
-set foldmethod=indent
 

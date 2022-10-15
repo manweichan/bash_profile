@@ -29,7 +29,7 @@ alias envwaf="source /Users/manweichan/Desktop/MITPhD/Wafer/Analysis/.wafEnv/bin
 alias jn="jupyter notebook"
 alias gst="git status"
 alias hist="log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
-alias gac="git add-commit -m"
+alias gac="git add .; git commit -m"
 alias gp="git push"
 alias la="ls -a"
 alias cesium="cd /Users/manweichan/Desktop/MITPhD/SAS/code/cesiumViz/cesium-app/application; chrome main.html"
@@ -37,7 +37,10 @@ alias cesiumunblock="chrome https://cesiumjs.org/releases/1.72/Build/Cesium/Cesi
 alias sshCS="ssh pi@50.210.91.126 -p 2225"
 alias sshGPS="ssh pi@50.210.91.126 -p 2226"
 alias sshPi4="ssh pi@50.210.91.126 -p 2227"
+alias sshSC="ssh mchan@txe1-login.mit.edu"
+alias backupPhotos="rsync -av --delete --exclude=".*" /Volumes/My\ Passport\ for\ Mac/ /Volumes/Elements/"
 
+alias sshfasrc="ssh manweic@login.rc.fas.harvard.edu"
 #Color for ls
 alias ls='ls -G'
 alias ll='ls -lG'
