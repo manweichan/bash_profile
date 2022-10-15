@@ -40,7 +40,7 @@ alias sshPi4="ssh pi@50.210.91.126 -p 2227"
 alias sshSC="ssh mchan@txe1-login.mit.edu"
 alias backupPhotos="rsync -av --delete --exclude=".*" /Volumes/My\ Passport\ for\ Mac/ /Volumes/Elements/"
 
-alias sshfasrc="ssh manweic@login.rc.fas.harvard.edu"
+alias odyssey="ssh manweic@login.rc.fas.harvard.edu"
 #Color for ls
 alias ls='ls -G'
 alias ll='ls -lG'
